@@ -7,6 +7,7 @@ The test setup is using vLLM 0.8.5.post1, sometimes with a custom tool call pars
 
 ## bfclv3 results
 
+```
                                                     RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic                                                     
 ┏━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Benchmark ID ┃ Subset                            ┃ Result                                                                                                ┃
@@ -49,6 +50,7 @@ The test setup is using vLLM 0.8.5.post1, sometimes with a custom tool call pars
 ├──────────────┼───────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ bfclv3       │ total_irrelevance                 │ {"accuracy": 0.7878117913832199, "num_total": 1122.0}                                                 │
 └──────────────┴───────────────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 For more details, see the [raw results](results/RedHatAI-Llama-4-Scout-17B-16E-Instruct-FP8-dynamic/bfclv3-20250527-1307).
 
@@ -58,6 +60,7 @@ testing in progress...
 
 ## bfclv3-api results with a custom Lark-grammar and tool parser
 
+```
                                                     RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic                                                     
 ┏━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Benchmark ID ┃ Subset                            ┃ Result                                                                                                ┃
@@ -100,5 +103,6 @@ testing in progress...
 ├──────────────┼───────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │ bfclv3-api   │ total_irrelevance                 │ {"accuracy": 0.8072845804988662, "num_total": 1122.0}                                                 │
 └──────────────┴───────────────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 For more details, see the [raw results](results/RedHatAI-Llama-4-Scout-17B-16E-Instruct-FP8-dynamic/bfclv3-api-lark_pythonic-20250527-1428).
